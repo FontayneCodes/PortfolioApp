@@ -1,0 +1,30 @@
+
+@page
+@model ProjectsModel
+@{
+    ViewData["Title"] = "Projects";
+}
+
+<section class="projects">
+    <h2>My Work</h2>
+    <p>Here are a few of the projects I’ve built — from tools for real clients to creative experiments.</p>
+
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>PulsePanel CMS</h3>
+            <p>A custom CMS built with Razor Pages. Clients can log in, update their site content, and manage photos — no coding needed.</p>
+        </div>
+        <div class="project-card">
+            <h3>RentFlow</h3>
+            <p>.NET Core app that helps property owners manage tenants, leases, and payments. Built with Entity Framework and Razor Pages.</p>
+        </div>
+        <div class="project-card">
+            <h3>Resume Lens</h3>
+            <p>A SaaS tool that compares your resume to job descriptions and shows which keywords you're missing. Built for jobseekers like me.</p>
+        </div>
+        <div class="project-card">
+            <h3>Custom Stylist Site</h3>
+            <p>Freelance site built for a local hairstylist. Mobile-first, booking-ready, and fully client-editable using my CMS foundation.</p>
+        </div>
+    </div>
+</section>
