@@ -11,9 +11,18 @@
 <body>
     <div class="site-wrapper">
 
-        <video id="gold-shimmer-bg" autoplay muted loop playsinline preload="auto" playsinline disablepictureinpicture muted controlslist="nodownload nofullscreen noremoteplay" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; object-fit: cover; z-index: -1; pointer-events: none;">
+        <video id="gold-shimmer-bg"
+               autoplay
+               muted
+               loop
+               playsinline
+               preload="auto"
+               disablepictureinpicture
+               controlslist="nodownload nofullscreen noremoteplay"
+               style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; object-fit: cover; z-index: -1; pointer-events: none;">
             <source src="@Url.Content("~/videos/gold-shimmer.mp4")" type="video/mp4" />
         </video>
+
 
 
 
@@ -36,8 +45,13 @@
         </div>
 
         <!-- FOOTER -->
-        <footer style="background-color: #000; color: #777; text-align: center; padding: 20px; font-size: 0.9rem;">
-            &copy; @DateTime.Now.Year Fontayne Porter. All rights reserved.
+
+        <footer class="portfolio-footer">
+            <p>
+                Designed with clarity. Coded with confidence.<br />
+                <span class="signature">Signed, Fontayne Porter.</span>
+                &copy; @DateTime.Now.Year Fontayne Porter. All rights reserved.
+            </p>
         </footer>
 
     </div>
